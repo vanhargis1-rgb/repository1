@@ -4,6 +4,8 @@
  <title>Tab title</title>
  </head>
  <body>
- <!-- Content goes here. -->
+    <p><script>document.write(new Date().toLocaleString())</script></p>
+ <p><script>document.write((new Date().getHours() < 12) ? "Top of the morning!" : "Good afternoon :)!")
+</script></p>
  </body>
 </html>
